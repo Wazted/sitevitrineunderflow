@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/Team-Boxed.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
@@ -39,19 +40,26 @@
         </div>
     </header>
     <section id="about" class="content-section text-center">
-        <div class="container">
+        <div class="container" data-aos="slide-up">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>A PROPOS D'UNDERFLOW</h2>
                     <p>Depuis plusieurs années, Paris est la ville la plus embouteillée de France.<br></p>
                     <p>Sur les 10 plus grandes villes françaises, les français perdent en moyenne 120h par an dans les bouchons.</p>
                     <p>Le but de notre projet est de réduire ces embouteillages afin d’améliorer la qualité de vie des habitants en zone urbaine grâce à l’intelligence artificielle.</p>
+                    <h2>Comment ca marche ?</h2>
+                    <p>Le projet Underflow est composé de 4 parties :&nbsp;&nbsp;</p>
+                    <ul class="text-left justify-content-xl-center align-items-xl-start">
+                        <li>Un simulateur qui simule le trafic routier d’un trajet prédéfini&nbsp;<br></li>
+                        <li>Un backend qui lance des simulations, enregistre leurs informations et accepte les instructions de l'IA&nbsp;Une IA qui donne des instructions au simulateur</li>
+                        <li>Un Frontend qui affiche les informations.</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
     <section id="team" class="download-section content-section text-center" style="background-image:url('assets/img/downloads-bg.jpg');">
-        <div class="container">
+        <div class="container" data-aos="slide-up">
             <div class="col-lg-8 mx-auto">
                 <h1>Notre equipe</h1>
                 <div class="row people">
@@ -120,7 +128,7 @@
         </div>
     </section>
     <section id="contact" class="content-section text-center" style="background: linear-gradient(72deg, rgb(213,104,10), rgb(135,62,41) 38%, rgb(79,32,63) 100%), #000000;">
-        <div class="container">
+        <div class="container" data-aos="slide-up">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>ContacTEZ NOUS</h2>
@@ -144,6 +152,8 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/grayscale.js"></script>
 </body>
